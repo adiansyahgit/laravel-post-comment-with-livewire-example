@@ -18,7 +18,7 @@ class Posts extends Component
      * delete action listener
      */
     protected $listeners = [
-        'deletePostListener' => 'deletePost'
+        'deletePost' => 'deletePost'
     ];
 
     /**

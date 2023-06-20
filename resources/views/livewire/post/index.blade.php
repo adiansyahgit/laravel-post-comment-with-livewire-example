@@ -65,3 +65,10 @@
     </div>
 
 </div>
+
+<script>
+    function deletePost(id) {
+        if (confirm("Are you sure to delete this record?"))
+            window.livewire.emit('deletePost', id);
+    }
+</script>
